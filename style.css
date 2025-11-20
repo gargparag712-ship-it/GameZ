@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: #0d0f25;
+    color: white;
+}
+
+
+.navbar {
+    background: #23113a;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 0 10px #00eaff;
+}
+
+.logo {
+    color: #00ff88;
+    margin-right: auto;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: #00eaff;
+    color: #000;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-image: url('./aesthetics-gaming-room_da1b52bb-8310-4d65-9a3a-e16f079df329.webp');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.hero h1 {
+    font-size: 50px;
+
+}
+
+
+.container {
+    height: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background-image: url(ps4.jpg);
+    background-size: cover;
+}
+.info{
+
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background-image: url(info-bbg.avif);
+    background-size: cover;
+    
+
+}
+
+.bbg{
+    height: 750px;
+    width: 100%;
+    margin: auto;
+    background-image: url(bbg.jpeg);
+    background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffdd00;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.games-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    text-align: center;
+}
+
+.card img {
+    width: 270px;
+    height: 170px;
+    border-radius: 12px;
+    border: 3px solid #00eaff;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    height: 180px;
+    width: 295px;
+    box-shadow: 0 0 20px #00eaff;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.info-box h2 {
+    color: #00ff95;
+    margin: 20px 0 8px;
+}
+
+
+.form-box {
+    width: 380px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid #6200ff;
+    border-radius: 10px;
+    background: #11172b;
+}
+
+.form-box input,
+.form-box textarea,
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+.form-box input,
+.form-box textarea {
+    background: #0d0f25;
+    color: white;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #5d00ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #fff200;
+    color: rgb(0, 0, 0);
+}
+
+.Explore{
+    text-decoration: none;
+    color:#81dae8;
+    font-weight: bold;
+    background-color:#c800ff;
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0 0 10px #00eaff;
+    border-radius: 20px;
+    
+
+}
+.game_name{
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 10px #00eaff;
+    width: auto;
+    font-weight:bold;
+    font-family:'Gill Sans';
+}
+h4{
+    color: #00eaff;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
